@@ -82,28 +82,27 @@ body {
     padding: 0.6em 1em;
 }
 
-/* Опыт работы: простая хронология */
-.timeline {
-    border-left: 3px solid #007bff;
-    margin-left: 20px;
-    padding-left: 20px;
-    position: relative;
+.progress {
+    height: 25px;
+}
+.progress-bar {
+    font-weight: 500;
+    line-height: 25px;
 }
 
+/* Таймлайн опыта */
 .timeline-item {
-    margin-bottom: 30px;
+    border-left: 3px solid #0d6efd;
+    padding-left: 15px;
     position: relative;
 }
-
 .timeline-item::before {
-    content: "";
+    content: '';
     position: absolute;
-    left: -10px;
+    left: -8px;
     top: 5px;
     width: 15px;
     height: 15px;
-    background-color: #007bff;
+    background-color: #0d6efd;
     border-radius: 50%;
-    border: 3px solid #fff;
 }
-
