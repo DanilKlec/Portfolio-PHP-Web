@@ -75,3 +75,35 @@ body {
     border: 3px solid #007bff;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
+
+/* Навыки */
+.skills .badge {
+    font-size: 1rem;
+    padding: 0.6em 1em;
+}
+
+/* Опыт работы: простая хронология */
+.timeline {
+    border-left: 3px solid #007bff;
+    margin-left: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.timeline-item {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: #007bff;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
