@@ -66,3 +66,8 @@ body {
 #contact {
     padding: 4rem 0;
 }
+
+.hero img {
+    object-fit: cover;
+    width: 100%;
+}
